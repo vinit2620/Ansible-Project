@@ -1,0 +1,12 @@
+# Ignore Vault password files
+vault.pass
+*.vault_password
+
+# Ignore sensitive variable files (if unencrypted)
+# group_vars/all/pass.yml
+
+# Ignore Python/Ansible temporary files
+venv/
+*.pyc
+.ansible/
+group_vars/all/pass.yml
